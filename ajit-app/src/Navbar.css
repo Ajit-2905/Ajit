@@ -1,0 +1,75 @@
+/* ---------- Mega Menu ---------- */
+.mega-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 100%;
+  display: none;
+  background-color: #3B3B3B;
+  z-index: 1000;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.dropdown-header{
+  color: #FFD700;
+}
+
+/* .dropdown-item{
+  background-color:  #ccc ;
+}  */
+
+.mega-menu.show {
+  display: block;
+}
+
+/* ---------- Top Layer ---------- */
+.top-layer {
+  background-color: #e7eded;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.top-layer a.btn {
+  background-color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* ---------- Bottom Layer ---------- */
+.bottom-layer {
+  background-color: #e9ecef;
+  padding: 0.5rem 0;
+}
+
+/* .nav-pills .nav-link {
+  text-decoration: none;
+} */
+
+.nav-pills .nav-link.active  .nav-link {
+  background-color: #0787ff;
+  color: #000;
+}
+
+/* ---------- Separator ---------- */
+.separator {
+  height: 2px;
+  background-color: #ccc;
+  margin: 0;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+  .dropdown-menu.mega-menu {
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/* Brand Name */
+.fw-bold {
+  color: #FFD700;
+  margin: 5;
+}

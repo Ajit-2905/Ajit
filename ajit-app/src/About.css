@@ -1,0 +1,4 @@
+.about-banner {
+  background: url("/rings-bg.jpg") center/cover no-repeat; /* use your actual background image */
+  height: 300px;
+}
